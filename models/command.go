@@ -97,7 +97,7 @@ func (sender *Sender) handleJdCookies(handle func(ck *JdCookie)) error {
 var codeSignals = []CodeSignal{
 	{
 		Command: []string{"status", "状态"},
-		Admin:   true,
+		Admin:   false,
 		Handle: func(sender *Sender) interface{} {
 			return Count()
 		},
