@@ -1,5 +1,7 @@
 ## 特别声明: 
 
+* 本次更新文件出处群某大佬与我无关仅仅是上传备份自用.
+
 * 本仓库仅仅为自用备份仓库，不是什么魔改版什么升级版，后续也不会维护更不会升级.
 
 * 本仓库菜单默认包含敏感内容，如不需要，请修改xdi/conf/reply.php内删除 `姐姐` => ``该行，然后重启机器人.
@@ -32,9 +34,9 @@ git clone https://ghproxy.com/https://github.com/xinyi02/hack-xdo.git  #此时�
 cd hack-xdo ##cd到xdi目录
 go build ##开始编译，稍微等一下，让它跑一会儿
 chmod 777 xdi ##给权限
-./xdi ##初始化并生成配置文件
-./xdi -d ##静默运行模式
-ps -ajx|grep xdi ##查看原程序PID
+./hack-xdo ##初始化并生成配置文件
+./hack-xdo -d ##静默运行模式
+ps -ajx|grep hack-xdo ##查看原程序PID
 kill -9 *** ##结束程序（***改为你的PID）,结束后无任何提示，不放心再输入一下，会提示无此进程。
  ```
 ## go环境安装
