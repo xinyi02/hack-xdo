@@ -4,7 +4,7 @@
 
 * 本仓库仅仅为自用备份仓库，此版本为某大佬修改版，后续大佬更新可能跟进更新也可能不更新.
 
-* 本仓库菜单默认包含敏感内容，如不需要，请修改xdi/conf/reply.php内删除 `姐姐` => ``该行，然后重启机器人.
+* 本仓库菜单默认包含敏感内容，如不需要，请修改conf/reply.php内删除 `姐姐` => ``该行，然后重启机器人.
 
 * 请自行下载[点此查看](https://github.com/xinyi02/hack-xdo/tree/main/theme)内文件更改用户名密码放到本地路径填入conf/config.yaml内的theme处，可以进入后台管理，app.conf内的开放端口为管理面板登录地址建议不要开放到公网.
 
@@ -32,9 +32,9 @@
 ```
 cd /anji/ql/  ##cd到青龙容器映射的ql目录，根据自己的路径改
 git clone https://ghproxy.com/https://github.com/xinyi02/hack-xdo.git  #此时你的ql目录下会新增文件夹hack-xdo
-cd hack-xdo ##cd到xdi目录
+cd hack-xdo ##cd到hack-xdo目录
 go build ##开始编译，稍微等一下，让它跑一会儿
-chmod 777 xdi ##给权限
+chmod 777 hack-xdo ##给权限
 ./hack-xdo ##初始化并生成配置文件
 ./hack-xdo -d ##静默运行模式
 ps -ajx|grep hack-xdo ##查看原程序PID
