@@ -179,7 +179,7 @@ var codeSignals = []CodeSignal{
 			if err := Update(sender); err != nil {
 				return err.Error()
 			}
-			sender.Reply("小滴滴重启程序")
+			sender.Reply("苏青重启程序")
 			Daemon()
 			return nil
 		},
