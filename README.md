@@ -6,7 +6,7 @@
 
 * 本仓库菜单默认包含敏感内容，如不需要，请修改xdi/conf/reply.php内删除 `姐姐` => ``该行，然后重启机器人.
 
-* 请自行下载[点此查看](https://github.com/xinyi02/hack-xdo/tree/main/theme)
+* 请自行下载[点此查看](https://github.com/xinyi02/hack-xdo/tree/main/theme)内文件更改用户名密码放到本地路径填入conf/config.yaml内的theme处，可以进入后台管理，app.conf内的开放端口为管理面板登录地址建议不要开放到公网.
 
 * 本仓库发布的项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
