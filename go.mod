@@ -1,4 +1,4 @@
-module github.com/xinyi02/xdo
+module github.com/xinyi02/hack-xdo
 
 go 1.16
 
