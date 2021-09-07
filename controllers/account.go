@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/xinyi02/xdo/models"
+	"github.com/xinyi02/xdi/models"
 )
 
 type AccountController struct {
