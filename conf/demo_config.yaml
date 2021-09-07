@@ -6,7 +6,7 @@ containers:
     weigth:  
     mode: parallel
     limit: 9999
-theme:  https://raw.githubusercontent.com/xinyi02/hack-xdo/main/theme/bidong.html
+theme:  
 static: ./static
 master: 
 database:  
