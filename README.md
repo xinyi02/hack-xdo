@@ -6,6 +6,8 @@
 
 * 本仓库菜单默认包含敏感内容，如不需要，请修改xdi/conf/reply.php内删除 `姐姐` => ``该行，然后重启机器人.
 
+* 请自行下载[点此查看](https://github.com/xinyi02/hack-xdo/tree/main/theme)
+
 * 本仓库发布的项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
 * 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
@@ -27,7 +29,6 @@
 ## 即日起，本仓库仅用于个人学习使用，如若想详细了解，请往下看。
 
 ## 数据库教程[点此查看](https://docs.qq.com/doc/DREdJWHRtQUpoUlNO)
-
 ```
 cd /anji/ql/  ##cd到青龙容器映射的ql目录，根据自己的路径改
 git clone https://ghproxy.com/https://github.com/xinyi02/hack-xdo.git  #此时你的ql目录下会新增文件夹hack-xdo
