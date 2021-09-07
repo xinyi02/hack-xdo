@@ -13,7 +13,7 @@ import (
 	"github.com/beego/beego/v2/server/web"
 	"github.com/xinyi02/xdo/controllers"
 	"github.com/xinyi02/xdo/models"
-	"github.com/xinyi02/xdo/qbot"
+	"github.com/xinyi02/hack-xdo/qbot"
 )
 
 var theme = ""
